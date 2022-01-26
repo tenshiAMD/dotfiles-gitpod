@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "aliariff.vscode-erb-beautify",
+    "davidanson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "github.copilot",
+    "ms-azuretools.vscode-docker",
+    "mohd-akram.vscode-html-format",
+    "sianglim.slim",
+    "sibiraj-s.vscode-scss-formatter",
+    "rangav.vscode-thunder-client",
+    "wingrunr21.vscode-ruby",
+  ]
+}
