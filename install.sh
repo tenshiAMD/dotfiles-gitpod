@@ -8,6 +8,8 @@ sudo ln -s ~/.dotfiles/.wgetrc ~/.wgetrc
 sudo rm ~/.gitconfig && sudo ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 # Setup essentials for development
+echo -e '\n[[ -s "$HOME/.dotfiles/.bash_prompt" ]] && source "$HOME/.dotfiles/.bash_prompt"' >> ~/.bashrc
+
 sudo cp -Rn ~/.dotfiles/.vscode $THEIA_WORKSPACE_ROOT
 sudo cp -n ~/.dotfiles/.editorconfig $THEIA_WORKSPACE_ROOT/.editorconfig
 sudo cp -n ~/.dotfiles/.gitignore $THEIA_WORKSPACE_ROOT/.gitignore
