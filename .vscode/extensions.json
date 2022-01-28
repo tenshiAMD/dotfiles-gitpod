@@ -4,6 +4,7 @@
     "aliariff.vscode-erb-beautify",
     "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
     "github.copilot",
     "ms-azuretools.vscode-docker",
     "mohd-akram.vscode-html-format",

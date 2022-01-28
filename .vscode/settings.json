@@ -1,4 +1,7 @@
 {
   "workbench.colorTheme": "Default Dark+",
   "diffEditor.ignoreTrimWhitespace": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
