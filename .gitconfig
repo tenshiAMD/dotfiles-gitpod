@@ -16,9 +16,9 @@
 	# Pull in remote changes for the current repository and all its submodules.
 	pl = pull --recurse-submodules
 
-	ph = push
+	ps = push
 
-	phf = push --force
+	psf = push --force
 
 	aa = add -A
 
