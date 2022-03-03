@@ -13,3 +13,7 @@ echo -e '\n[[ -s "$HOME/.dotfiles/.bash_prompt" ]] && source "$HOME/.dotfiles/.b
 sudo cp -Rn ~/.dotfiles/.vscode $GITPOD_REPO_ROOT/.vscode
 sudo cp -n ~/.dotfiles/.editorconfig $GITPOD_REPO_ROOT
 sudo cp -n ~/.dotfiles/.gitignore $GITPOD_REPO_ROOT
+
+sudo chown -R gitpod:gitpod $GITPOD_REPO_ROOT/.vscode
+sudo chown gitpod:gitpod $GITPOD_REPO_ROOT/.editorconfig
+sudo chown gitpod:gitpod $GITPOD_REPO_ROOT/.gitignore
