@@ -10,6 +10,6 @@ sudo rm ~/.gitconfig && sudo ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 # Setup essentials for development
 echo -e '\n[[ -s "$HOME/.dotfiles/.bash_prompt" ]] && source "$HOME/.dotfiles/.bash_prompt"' >> ~/.bashrc
 
-sudo cp -Rn ~/.dotfiles/.vscode $THEIA_WORKSPACE_ROOT
-sudo cp -n ~/.dotfiles/.editorconfig $THEIA_WORKSPACE_ROOT/.editorconfig
-sudo cp -n ~/.dotfiles/.gitignore $THEIA_WORKSPACE_ROOT/.gitignore
+sudo cp -Rn ~/.dotfiles/.vscode $GITPOD_REPO_ROOT/.vscode
+sudo cp -n ~/.dotfiles/.editorconfig $GITPOD_REPO_ROOT
+sudo cp -n ~/.dotfiles/.gitignore $GITPOD_REPO_ROOT
